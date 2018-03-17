@@ -1,0 +1,7 @@
+.header {
+  display: flex;
+}
+
+.navigation li {
+  color: red;
+}
