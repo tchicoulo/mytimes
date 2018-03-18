@@ -1,15 +1,44 @@
-.header {
-  display: flex;
-  width: 100%;
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 5px 10px;
 }
 
-li {
+.logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 15px;
+  align-items: center;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav span {
   display: inline-block;
+  padding: 20px 15px;
 }
 
-.header img {
+.logo span {
   color: MediumAquamarine;
+  padding-left: 10px;
+}
+
+header nav {
+  padding-right: 50px;
+}
+
+a {
+  color: black;
 }
